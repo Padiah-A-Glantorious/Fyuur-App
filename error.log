@@ -1,0 +1,1011 @@
+
+2022-08-09 00:08:00,122 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:510]
+2022-08-09 00:10:53,044 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:510]
+2022-08-09 00:11:33,285 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:510]
+2022-08-09 00:12:52,876 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:509]
+2022-08-09 00:13:34,822 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:509]
+2022-08-09 00:13:48,558 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:509]
+2022-08-09 00:14:41,459 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:509]
+2022-08-09 00:19:28,023 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:509]
+2022-08-09 00:20:52,965 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:509]
+2022-08-09 00:34:55,673 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:509]
+2022-08-09 01:05:03,453 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 229, in create_venue_submission
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-09 01:06:13,717 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 229, in create_venue_submission
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-09 01:06:46,517 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 229, in create_venue_submission
+    # on successful db insert, flash success
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-10 21:28:44,529 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:526]
+2022-08-10 21:29:40,608 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:529]
+2022-08-10 21:29:54,393 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:529]
+2022-08-10 21:32:56,429 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:529]
+2022-08-10 21:40:51,509 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:529]
+2022-08-10 21:42:42,755 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:529]
+2022-08-10 21:43:36,404 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:529]
+2022-08-10 21:50:00,144 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:529]
+2022-08-10 21:54:32,062 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:532]
+2022-08-10 21:54:56,314 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:532]
+2022-08-10 21:56:54,312 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:532]
+2022-08-10 22:07:17,643 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 252, in create_venue_submission
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-10 22:11:21,820 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 252, in create_venue_submission
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-10 22:12:34,062 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:534]
+2022-08-10 22:13:32,393 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:534]
+2022-08-10 22:39:39,729 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 252, in create_venue_submission
+    # TODO: modify data to be the data object returned from db insertion
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-10 22:45:10,741 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 252, in create_venue_submission
+    db.session.add(new_venue)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-10 22:52:15,259 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 252, in create_venue_submission
+    db.session.add(new_venue)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-10 22:53:12,205 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 252, in create_venue_submission
+    return f'<create_venue_form  {self.name} {self.city} {self.state} {self.address} {self.phone} {self.genres} {self.fb_link} {self.img_link} {self.website} {self.seeking_talent} {self.description}>'
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\helpers.py", line 389, in flash
+    session["_flashes"] = flashes
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2022-08-10 22:58:59,916 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:00:48,762 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:00:52,563 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:02:47,778 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:02:54,138 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:03:44,793 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:04:33,101 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:04:46,786 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:05:51,814 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:05:57,019 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:16:11,571 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:535]
+2022-08-10 23:22:45,569 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:543]
+2022-08-10 23:22:51,084 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:543]
+2022-08-10 23:24:33,298 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:543]
+2022-08-10 23:25:11,048 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:543]
+2022-08-10 23:33:04,783 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:544]
+2022-08-10 23:33:59,177 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:544]
+2022-08-10 23:33:59,581 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x0000018312E207D0 (otid=0x0000018312E0CA40) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 258, in create_venue_submission
+    db.session.add(new_venue)
+  File "<string>", line 2, in add
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 175, in __init__
+    track_modifications = app.config['SQLALCHEMY_TRACK_MODIFICATIONS']
+KeyError: 'SQLALCHEMY_TRACK_MODIFICATIONS'
+2022-08-10 23:34:49,147 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:544]
+2022-08-10 23:34:55,474 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x00000276038F45C0 (otid=0x00000276038D2C40) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 258, in create_venue_submission
+    db.session.add(new_venue)
+  File "<string>", line 2, in add
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 175, in __init__
+    track_modifications = app.config['SQLALCHEMY_TRACK_MODIFICATIONS']
+KeyError: 'SQLALCHEMY_TRACK_MODIFICATIONS'
+2022-08-10 23:36:34,095 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x0000027603A57110 (otid=0x00000276038F9B00) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 258, in create_venue_submission
+    print(new_venue)
+  File "<string>", line 2, in add
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 175, in __init__
+    track_modifications = app.config['SQLALCHEMY_TRACK_MODIFICATIONS']
+KeyError: 'SQLALCHEMY_TRACK_MODIFICATIONS'
+2022-08-10 23:37:05,928 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x0000027603A55FE0 (otid=0x0000027603A2D400) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 258, in create_venue_submission
+    new_venue = Venue(name=name,city=city,state=state,address=address,phone=phone,genres=genres,facebook_link=fb_link,image_link=img_link,website=website,seeking_talent=seeking_talent,seeking_description=seeking_description)
+  File "<string>", line 2, in add
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\scoping.py", line 24, in _proxied
+    return self.registry()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 4225, in __call__
+    return self.class_(**local_kw)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_sqlalchemy\__init__.py", line 175, in __init__
+    track_modifications = app.config['SQLALCHEMY_TRACK_MODIFICATIONS']
+KeyError: 'SQLALCHEMY_TRACK_MODIFICATIONS'
+2022-08-10 23:37:17,857 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:38:26,910 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:39:26,234 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(2)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 261, in create_venue_submission
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3383, in flush
+    self._flush(objects)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3522, in _flush
+    with util.safe_reraise():
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3483, in _flush
+    flush_context.execute()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 332, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.DataError: (psycopg2.errors.StringDataRightTruncation) value too long for type character varying(2)
+
+[SQL: INSERT INTO "Venue" (name, city, state, address, phone, image_link, facebook_link, genres, website, seeking_talent, seeking_description) VALUES (%(name)s, %(city)s, %(state)s, %(address)s, %(phone)s, %(image_link)s, %(facebook_link)s, %(genres)s, %(website)s, %(seeking_talent)s, %(seeking_description)s) RETURNING "Venue".id]
+[parameters: {'name': None, 'city': None, 'state': None, 'address': None, 'phone': None, 'image_link': None, 'facebook_link': None, 'genres': None, 'website': None, 'seeking_talent': False, 'seeking_description': None}]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+2022-08-10 23:43:38,253 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(2)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 261, in create_venue_submission
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3383, in flush
+    self._flush(objects)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3522, in _flush
+    with util.safe_reraise():
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py", line 3483, in _flush
+    flush_context.execute()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\sql\elements.py", line 332, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\engine\default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.DataError: (psycopg2.errors.StringDataRightTruncation) value too long for type character varying(2)
+
+[SQL: INSERT INTO "Venue" (name, city, state, address, phone, image_link, facebook_link, genres, website, seeking_talent, seeking_description) VALUES (%(name)s, %(city)s, %(state)s, %(address)s, %(phone)s, %(image_link)s, %(facebook_link)s, %(genres)s, %(website)s, %(seeking_talent)s, %(seeking_description)s) RETURNING "Venue".id]
+[parameters: {'name': None, 'city': None, 'state': None, 'address': None, 'phone': None, 'image_link': None, 'facebook_link': None, 'genres': None, 'website': None, 'seeking_talent': False, 'seeking_description': None}]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+2022-08-10 23:49:29,186 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:49:34,575 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 251, in create_venue_submission
+    website = Venue(website_link=form.website_link.data)
+  File "<string>", line 4, in __init__
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\decl_base.py", line 1163, in _declarative_constructor
+    raise TypeError(
+TypeError: 'website_link' is an invalid keyword argument for Venue
+2022-08-10 23:51:48,977 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:51:56,036 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:52:03,072 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:52:29,596 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:52:45,207 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 258, in create_venue_submission
+    new_venue = Venue(name=name,city=city,state=state,address=address,phone=phone,genres=genres,facebook_link=fb_link,image_link=img_link,website=website,seeking_talent=seeking_talent,seeking_description=seeking_description)
+  File "<string>", line 4, in __init__
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\decl_base.py", line 1163, in _declarative_constructor
+    raise TypeError(
+TypeError: 'website' is an invalid keyword argument for Venue
+2022-08-10 23:53:40,021 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:54:04,452 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:54:59,347 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:55:13,359 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:55:50,827 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:56:04,265 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 258, in create_venue_submission
+    new_venue = Venue(name=name,city=city,state=state,address=address,phone=phone,genres=genres,facebook_link=fb_link,image_link=img_link,website=website,seeking_talent=seeking_talent,seeking_description=seeking_description)
+  File "<string>", line 4, in __init__
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\decl_base.py", line 1163, in _declarative_constructor
+    raise TypeError(
+TypeError: 'website' is an invalid keyword argument for Venue
+2022-08-10 23:56:35,618 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:57:05,848 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:57:48,550 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-10 23:59:12,254 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:00:45,918 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:01:18,890 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:01:40,890 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:03:22,886 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:04:32,664 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:04:53,250 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:06:13,602 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:06:32,956 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:07:24,027 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:542]
+2022-08-11 00:07:33,619 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:542]
+2022-08-11 00:07:42,929 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:542]
+2022-08-11 00:08:12,303 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:09:12,407 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:09:34,871 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:09:41,861 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:18:49,618 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:19:03,710 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:19:29,776 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:20:06,556 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:20:09,788 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 258, in create_venue_submission
+    new_venue = Venue(name=name,city=city,state=state,address=address,phone=phone,genres=genres,facebook_link=fb_link,image_link=img_link,website=website,seeking_talent=seeking_talent,seeking_description=seeking_description)
+  File "<string>", line 4, in __init__
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\decl_base.py", line 1163, in _declarative_constructor
+    raise TypeError(
+TypeError: 'website' is an invalid keyword argument for Venue
+2022-08-11 00:23:29,971 ERROR: Exception on /venues/create [POST] [in C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py:1449]
+Traceback (most recent call last):
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py", line 258, in create_venue_submission
+    new_venue = Venue(name=name,city=city,state=state,address=address,phone=phone,genres=genres,facebook_link=fb_link,image_link=img_link,website_link=website,seeking_talent=seeking_talent,seeking_description=seeking_description)
+  File "<string>", line 4, in __init__
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "C:\Users\Papz\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\decl_base.py", line 1163, in _declarative_constructor
+    raise TypeError(
+TypeError: 'website' is an invalid keyword argument for Venue
+2022-08-11 00:24:56,361 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:25:01,329 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:29:53,466 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:30:18,370 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:30:23,677 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:41:25,994 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:41:49,539 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:42:23,973 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:42:29,107 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:44:33,691 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:48:00,819 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:546]
+2022-08-11 00:52:59,673 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 00:56:33,755 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:02:28,727 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:04:43,517 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:05:43,790 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:07:25,985 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:07:30,090 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:08:22,010 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:13:32,252 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:13:38,814 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:14:36,718 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:16:54,797 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:564]
+2022-08-11 01:17:01,053 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:564]
+2022-08-11 01:17:29,903 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:33:32,307 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:34:55,764 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:40:51,206 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 01:46:00,409 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:549]
+2022-08-11 01:46:13,695 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:549]
+2022-08-11 01:46:17,798 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:549]
+2022-08-11 01:51:26,589 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:550]
+2022-08-11 01:58:22,117 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 01:58:33,770 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 01:58:52,572 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 01:59:34,448 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 02:01:14,762 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 02:01:20,639 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 02:03:47,609 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 02:03:52,464 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 02:17:48,726 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:547]
+2022-08-11 02:18:39,575 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:18:56,535 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:19:03,221 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:19:52,990 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:20:34,208 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:21:32,266 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:21:36,650 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:27:41,577 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:28:39,542 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:28:44,349 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:29:26,303 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:32:07,488 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:32:18,579 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:36:02,937 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:548]
+2022-08-11 02:47:56,684 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:561]
+2022-08-11 02:51:45,612 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:564]
+2022-08-11 02:53:13,138 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:564]
+2022-08-11 02:53:28,586 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:564]
+2022-08-11 02:56:16,664 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:564]
+2022-08-11 02:59:16,452 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:563]
+2022-08-11 03:21:28,524 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:565]
+2022-08-11 03:21:35,477 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:565]
+2022-08-11 03:41:00,504 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:571]
+2022-08-11 03:41:05,362 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:571]
+2022-08-11 04:20:28,742 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 04:20:41,438 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 04:21:54,258 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 04:22:03,507 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 04:24:20,386 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 21:45:49,665 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 21:45:54,713 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 23:44:35,669 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 23:49:24,072 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 23:49:40,346 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:573]
+2022-08-11 23:51:40,992 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-11 23:51:44,678 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-11 23:51:58,985 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-11 23:52:10,622 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-11 23:52:21,451 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-12 00:10:29,090 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:574]
+2022-08-12 00:10:37,976 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:574]
+2022-08-12 00:11:12,083 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:574]
+2022-08-12 00:11:25,975 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:574]
+2022-08-12 00:24:37,526 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:577]
+2022-08-12 00:24:41,604 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:577]
+2022-08-12 00:27:33,473 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:577]
+2022-08-12 00:42:17,186 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-12 00:42:22,249 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-12 01:13:39,360 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-12 01:13:45,569 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:576]
+2022-08-12 01:15:18,240 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:586]
+2022-08-12 01:27:19,096 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 01:38:35,351 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 01:38:41,420 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 01:40:30,449 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 01:41:26,422 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 01:53:30,227 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:594]
+2022-08-12 01:53:36,057 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:594]
+2022-08-12 02:20:07,240 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:597]
+2022-08-12 02:20:54,869 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:597]
+2022-08-12 02:22:47,754 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:597]
+2022-08-12 02:28:27,316 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:597]
+2022-08-12 02:28:38,957 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:597]
+2022-08-12 02:30:02,970 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 02:51:54,738 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:02:33,697 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:04:01,805 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:05:17,912 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:08:40,976 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:09:18,832 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:10:01,377 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:10:41,751 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:10:58,074 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:14:09,573 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:14:37,345 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:15:45,662 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:16:23,523 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:22:35,995 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:23:25,032 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:24:04,212 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:25:10,159 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:33:54,114 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 03:36:30,475 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:40:39,787 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:41:43,935 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:42:31,997 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:43:05,496 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:44:14,616 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:44:38,255 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:54:36,820 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:56:22,343 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:56:54,276 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:57:36,455 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 03:58:16,311 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:01:12,357 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:04:49,812 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:06:18,864 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:06:41,328 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:07:11,685 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:10:32,561 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:10:38,052 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:11:18,600 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:13:36,069 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:13:43,230 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:15:05,036 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:17:36,587 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:18:02,893 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:18:29,949 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:18:50,960 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:19:37,097 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:20:08,677 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:21:09,465 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:22:22,663 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:46:19,056 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:47:01,181 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:48:06,662 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:48:41,927 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:50:27,873 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:51:01,468 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:57:21,977 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:57:28,144 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 04:58:36,033 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 05:01:17,066 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 05:01:50,814 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 05:07:37,455 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 05:16:39,187 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:607]
+2022-08-12 05:16:44,840 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:607]
+2022-08-12 05:17:23,113 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 05:19:08,364 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 05:22:59,415 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 05:23:47,084 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 05:26:57,048 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 05:27:03,018 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 05:27:34,283 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 13:21:01,556 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 13:21:08,639 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:608]
+2022-08-12 13:21:46,060 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 20:24:48,557 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 20:24:55,216 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 20:30:03,219 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:612]
+2022-08-12 20:30:54,862 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:612]
+2022-08-12 20:31:59,254 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:613]
+2022-08-12 20:32:47,355 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:613]
+2022-08-12 20:33:29,586 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:613]
+2022-08-12 20:34:17,890 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:613]
+2022-08-12 20:34:45,359 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:613]
+2022-08-12 20:35:34,785 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:613]
+2022-08-12 20:36:07,086 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:613]
+2022-08-12 20:37:36,091 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:601]
+2022-08-12 20:37:58,110 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:601]
+2022-08-12 22:17:15,200 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 22:18:40,116 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 22:19:38,942 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:592]
+2022-08-12 22:19:52,928 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:592]
+2022-08-12 22:55:39,087 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:592]
+2022-08-12 22:55:45,675 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:592]
+2022-08-12 22:57:35,212 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:594]
+2022-08-12 23:00:05,832 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:594]
+2022-08-12 23:01:01,970 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:594]
+2022-08-12 23:01:09,881 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:594]
+2022-08-12 23:05:10,772 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:597]
+2022-08-12 23:08:49,481 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 23:09:16,916 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 23:11:10,053 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 23:11:16,888 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 23:11:42,287 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:598]
+2022-08-12 23:11:59,590 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 23:12:40,732 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 23:13:37,840 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 23:14:48,301 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 23:15:12,001 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 23:15:42,731 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:599]
+2022-08-12 23:23:05,948 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-12 23:27:32,673 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:604]
+2022-08-12 23:32:32,101 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-12 23:39:36,264 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-12 23:39:50,430 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:604]
+2022-08-12 23:40:07,847 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:604]
+2022-08-12 23:40:11,874 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:604]
+2022-08-12 23:44:01,345 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:604]
+2022-08-12 23:46:03,048 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-12 23:56:50,867 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-12 23:57:26,226 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-12 23:57:51,049 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-12 23:57:56,883 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-13 00:01:09,724 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-13 00:04:41,215 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-13 00:11:56,211 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-13 00:12:00,371 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-13 00:15:37,932 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:23:33,764 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:23:53,110 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:24:19,243 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:24:23,146 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:28:02,759 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:28:08,130 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:37:59,716 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-13 00:38:05,365 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:605]
+2022-08-13 00:44:57,984 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:45:27,550 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:48:04,548 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-13 00:48:18,459 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-14 21:54:23,342 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-14 21:54:28,702 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-14 22:03:24,707 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-14 22:03:39,009 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-15 19:16:01,426 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-15 19:16:08,070 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:606]
+2022-08-15 19:37:08,185 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:647]
+2022-08-15 19:40:07,015 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:647]
+2022-08-15 19:40:16,039 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:647]
+2022-08-15 19:48:53,888 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:648]
+2022-08-15 19:51:01,720 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:649]
+2022-08-15 19:51:49,827 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:649]
+2022-08-15 19:51:56,018 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:649]
+2022-08-15 19:58:14,489 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:649]
+2022-08-15 19:59:38,833 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:649]
+2022-08-15 20:04:30,463 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:652]
+2022-08-15 20:04:55,863 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:652]
+2022-08-15 20:05:23,004 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:649]
+2022-08-15 20:10:34,732 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:660]
+2022-08-15 20:15:53,540 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:16:00,686 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:16:41,987 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:17:15,338 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:19:02,150 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:19:55,074 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:20:51,569 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:21:06,413 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:21:12,093 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:28:42,910 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:30:03,725 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:30:41,945 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:44:54,628 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:53:11,717 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:54:29,852 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:57:47,147 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:58:59,114 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:59:13,296 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 20:59:59,294 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 21:00:06,169 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 21:01:12,636 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 21:01:44,511 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 21:29:40,899 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 21:30:16,530 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 21:30:55,821 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:671]
+2022-08-15 21:35:07,932 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:672]
+2022-08-15 21:38:25,758 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 21:43:06,391 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 21:58:12,862 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 22:00:56,733 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 22:01:04,841 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 22:13:04,910 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:676]
+2022-08-15 22:16:31,430 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:17:05,297 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:18:01,511 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:28:58,144 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 22:29:34,333 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 22:30:01,588 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 22:30:36,833 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 22:31:22,168 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 22:31:40,913 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 22:32:03,107 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 22:32:49,673 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:675]
+2022-08-15 22:34:27,865 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:34:33,454 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:36:09,730 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:36:16,074 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:36:39,283 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:37:33,056 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:41:00,101 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:41:04,484 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:41:37,008 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:43:10,350 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:45:41,612 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:47:52,264 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:49:07,532 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:666]
+2022-08-15 22:49:14,705 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:666]
+2022-08-15 22:50:29,339 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:666]
+2022-08-15 22:50:35,193 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:666]
+2022-08-15 22:51:22,355 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:666]
+2022-08-15 22:53:54,412 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 22:54:50,039 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 22:55:11,578 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 22:56:59,268 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 22:57:28,788 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 22:58:18,972 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 22:59:53,343 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-15 23:03:14,745 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:673]
+2022-08-15 23:04:52,420 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 09:54:20,893 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 09:54:30,408 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 09:57:50,383 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:02:30,267 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:03:03,598 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:03:38,146 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:05:44,725 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:06:32,734 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:07:05,689 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:07:33,908 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:08:28,386 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:674]
+2022-08-18 10:14:02,357 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:14:22,660 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:18:20,500 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:20:08,086 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:20:48,171 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:23:28,896 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:23:54,910 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:24:22,814 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:24:46,850 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:603]
+2022-08-18 10:31:14,690 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:504]
+2022-08-18 10:31:32,998 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:504]
+2022-08-18 10:31:55,717 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:504]
+2022-08-18 10:32:34,823 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:504]
+2022-08-18 10:33:43,816 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:34:27,039 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:34:54,017 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:36:43,807 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:37:59,669 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:39:08,350 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:507]
+2022-08-18 10:40:48,663 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:506]
+2022-08-18 10:40:54,163 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:506]
+2022-08-18 10:41:49,926 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:507]
+2022-08-18 10:46:16,029 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:46:44,911 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:47:24,767 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:47:50,084 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:57:09,516 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 10:57:14,904 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 11:00:09,791 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 11:01:01,169 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 11:01:26,740 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 11:01:52,274 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 11:02:13,361 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 11:05:00,544 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:505]
+2022-08-18 11:07:29,065 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:506]
+2022-08-18 11:08:23,956 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:506]
+2022-08-18 11:09:07,713 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:507]
+2022-08-18 11:11:44,083 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:516]
+2022-08-18 11:12:47,754 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:516]
+2022-08-18 11:14:14,522 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:508]
+2022-08-18 11:14:53,352 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:516]
+2022-08-18 11:15:24,152 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:509]
+2022-08-18 18:32:23,037 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:524]
+2022-08-18 18:33:54,527 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:524]
+2022-08-18 18:37:56,028 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:524]
+2022-08-18 18:42:08,948 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:524]
+2022-08-18 18:46:30,681 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 18:47:05,347 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 18:47:31,757 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 18:47:52,245 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 18:50:24,947 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 18:54:03,235 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:531]
+2022-08-18 18:54:40,262 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 18:57:49,797 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:534]
+2022-08-18 19:00:58,123 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 19:05:28,401 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 19:06:00,861 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:533]
+2022-08-18 19:07:51,350 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:482]
+2022-08-18 19:09:57,600 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:482]
+2022-08-18 19:15:32,057 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:474]
+2022-08-18 19:20:24,713 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:476]
+2022-08-18 19:22:09,649 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:475]
+2022-08-18 19:22:33,236 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:475]
+2022-08-18 19:22:49,666 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:475]
+2022-08-19 00:19:45,068 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:475]
+2022-08-19 00:19:53,554 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:475]
+2022-08-19 00:20:59,844 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:440]
+2022-08-19 00:21:35,100 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:440]
+2022-08-19 00:30:09,358 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:447]
+2022-08-19 00:33:01,101 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:449]
+2022-08-19 00:33:50,165 INFO: errors [in C:\Users\Papz\Desktop\Udacity\fyuur-project\cd0046-SQL-and-Data-Modeling-for-the-Web\app.py:449]
